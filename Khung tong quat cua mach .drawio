@@ -1,0 +1,195 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="t5g3WIORDT4QzheLGs1R">
+    <mxGraphModel dx="756" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-2" parent="1" style="whiteSpace=wrap;html=1;" value="DC/DC 12-&amp;gt;5V-2A&lt;br&gt;Switching Power&lt;br&gt;LM" vertex="1">
+          <mxGeometry height="55" width="120" x="310" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-4" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7gBLx9DvYWCYXTgXjS6c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-11" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7gBLx9DvYWCYXTgXjS6c-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-3" parent="1" style="whiteSpace=wrap;html=1;" value="Adapter 220VAC -&amp;gt; 12V-2A" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12V&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="505" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-9" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7gBLx9DvYWCYXTgXjS6c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-8" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/Plug_Connect.svg" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="810" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="220VAC" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-13" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7gBLx9DvYWCYXTgXjS6c-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-12" parent="1" style="whiteSpace=wrap;html=1;" value="ngõ ra công suất kích tải 12V&lt;br&gt;ULN2803-RELAY" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-16" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7gBLx9DvYWCYXTgXjS6c-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-14" parent="1" style="whiteSpace=wrap;html=1;" value="4 tải 12V" vertex="1">
+          <mxGeometry height="60" width="90" x="750" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-19" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7gBLx9DvYWCYXTgXjS6c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-43" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hồi tiếp" vertex="1">
+          <mxGeometry relative="1" x="0.1968" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-15" parent="1" style="whiteSpace=wrap;html=1;" value="4 ngõ ra vào kiểm tra trạng thái ngõ ra&lt;br&gt;opto pc87" vertex="1">
+          <mxGeometry height="45" width="110" x="700" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="hồi tiếp" vertex="1">
+          <mxGeometry height="30" width="60" x="810" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-21" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="7gBLx9DvYWCYXTgXjS6c-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="450" as="sourcePoint" />
+            <mxPoint x="505" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-20" parent="1" style="whiteSpace=wrap;html=1;" value="Khối Điều Khiển&lt;br&gt;ESP8266" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ngõ ra số" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-39" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7gBLx9DvYWCYXTgXjS6c-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-52" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="0.244" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-41" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="7gBLx9DvYWCYXTgXjS6c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-42" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.3V" vertex="1">
+          <mxGeometry relative="1" x="-0.1606" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-23" parent="1" style="whiteSpace=wrap;html=1;" value="DC/DC 5V-&amp;gt; 3.3V-1A&lt;br&gt;Linear Power&lt;br&gt;AMS1117-3.3" vertex="1">
+          <mxGeometry height="55" width="120" x="290" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-26" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.36;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" target="7gBLx9DvYWCYXTgXjS6c-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="245" as="sourcePoint" />
+            <mxPoint x="340" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5V" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-38" parent="1" style="whiteSpace=wrap;html=1;" value="Khối thời gian thực (RTC)&lt;br&gt;DS3231SN" vertex="1">
+          <mxGeometry height="40" width="90" x="90" y="337.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-61" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="7gBLx9DvYWCYXTgXjS6c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-62" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="uart" vertex="1">
+          <mxGeometry relative="1" x="0.1351" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-40" parent="1" style="whiteSpace=wrap;html=1;" value="USB to UART TTL&lt;br&gt;CH340" vertex="1">
+          <mxGeometry height="55" width="100" x="200" y="476.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-50" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-20" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;curved=1;" target="7gBLx9DvYWCYXTgXjS6c-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="440" />
+            </Array>
+            <mxPoint x="160" y="448" as="sourcePoint" />
+            <mxPoint x="210" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-51" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="I2C" vertex="1">
+          <mxGeometry relative="1" x="0.2492" y="-15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="chịu áp cao, trấnh nguồn nóng nhưng nên không cấp trực tiếp cho MCU" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-54" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="390" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="dễ nóng nhưng ít nhiễu phù hợp đk mcu(khối đk)" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-56" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-63" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="7gBLx9DvYWCYXTgXjS6c-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-64" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="VBUS" vertex="1">
+          <mxGeometry relative="1" x="-0.2129" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-65" edge="1" parent="1" source="7gBLx9DvYWCYXTgXjS6c-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="7gBLx9DvYWCYXTgXjS6c-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-66" connectable="0" parent="7gBLx9DvYWCYXTgXjS6c-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="D+, D-" vertex="1">
+          <mxGeometry relative="1" x="-0.2131" y="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-60" parent="1" style="whiteSpace=wrap;html=1;" value="Khối giao tiếp USB (nạp fw)&lt;div&gt;BF90 Cong USB-2.0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="100" x="20" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-67" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.4;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" target="7gBLx9DvYWCYXTgXjS6c-40" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="240" y="580" as="sourcePoint" />
+            <mxPoint x="240" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5V" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 tầng nguồn xuống sẽ ít nhiễu hơn là 1 nguồn xuống trực tiếp&lt;div&gt;cần có 1 nguồn 5V cấp cho UART TTL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="295" x="202.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12-&amp;gt;5 -&amp;gt;3.3V ít nóng, ít nhiễu hơn&lt;div&gt;12V-&amp;gt;3.3V chênh lệch lớn hơn, dễ nóng hơn&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="285" x="525" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Thuong dung dien ap lon hon d/ap can thiet de giam dong dien -&amp;gt; giam tiet dien day, giam nong&lt;br&gt;xem thong so cong suat dien ap ra de tranh khong bi qua tai dong ra, gay nong va chay ic" vertex="1">
+          <mxGeometry height="30" width="317.5" x="200" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="7gBLx9DvYWCYXTgXjS6c-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Thuong chon LDO thap de duy tri on dinh d/ap ra khong giam nhieu" vertex="1">
+          <mxGeometry height="30" width="285" x="540" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ZjAHg2sZyCdgSXv3pc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Chon linh kien can xem dau vao-dau ra, cong suat max,...." vertex="1">
+          <mxGeometry width="270" x="60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ZjAHg2sZyCdgSXv3pc-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="4 tai ra 12V co the la mot so cac thiet bi mong muon..." vertex="1">
+          <mxGeometry height="30" width="230" x="860" y="337.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

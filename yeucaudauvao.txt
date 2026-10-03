@@ -1,0 +1,9 @@
+thiet ke he thong pcb cho du an co yeu cau: 
+1. He thong co ket noi wifi (ap mode/client mode)
+2. Co 4 ngo ra so kich tai 12VDC
+3. Co 4 ngo vao doc so trang thai cua ngo ra
+4. Tich hop IC thoi gian thuc: chay theo thoi gian thuc, co the thay doi duoc, chinh sua cac yeu cau theo thoi gian mong muon.
+5. Tich hop nut nhan Mode mo rong
+6. Nap ctrinh qua cong USB.
+
+
